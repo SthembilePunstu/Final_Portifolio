@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sthembile Sithole — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- Ambient orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Nav -->
+  <nav id="navbar">
+    <span class="nav-logo">Sthembile</span>
+    <a href="#hero" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ══ HERO ══ -->
+  <section id="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Hello, welcome to my portfolio</p>
+      <h1 class="hero-name">Sthembile<br>Sphiwe Sithole</h1>
+      <p class="hero-role">Aspiring Full Stack Developer</p>
+      <p>
+        Second-year Business Information Technology student at the University of
+        Johannesburg — crafting layouts, writing code, and bringing ideas to life
+        with purpose and visual impact.
+      </p>
+      <div class="btn-group">
+        <a href="#contact" class="btn btn-primary">Let's talk</a>
+        <a href="Sthembile_CV.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/sthembile-sithole-920153319" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/SthembilePunstu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/_sthesthembile?igsh=MXNvN3lzcjZyZWkxeg==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="hero-image reveal">
+      <img src="images/pic.jpeg" alt="Sthembile Sithole" />
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ══ -->
+  <section id="about">
+    <p class="eyebrow reveal">About me</p>
+    <h2 class="reveal">A developer who loves<br><em>purposeful design</em></h2>
+    <div class="divider reveal"></div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>I'm Sthembile, a 19-year-old BIT student at the University of Johannesburg, currently in my second year. I enjoy solving problems through design and building websites that are both functional and beautiful.</p>
+        <p>Beyond the screen, I'm a friendly, reliable, and hardworking individual with a genuine interest in customer service. I adapt quickly, work well under pressure, and love meeting new people.</p>
+        <p>I'm seeking opportunities where I can bring my communication skills, positive attitude, and dedication to excellent work — while continuing to grow as a developer.</p>
+      </div>
+      <div class="about-details reveal">
+        <div class="detail-item">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <strong>Diploma in Business Information Technology</strong>
+            <span>University of Johannesburg · 2nd Year</span>
+          </div>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-school"></i>
+          <div>
+            <strong>Grade 12 / Matric 2024</strong>
+            <span>Netherland Park Secondary School</span>
+          </div>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Ermelo, South Africa</strong>
+            <span>Available for remote & in-person work</span>
+          </div>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-language"></i>
+          <div>
+            <strong>English · isiZulu · Afrikaans</strong>
+            <span>Multilingual communicator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SKILLS ══ -->
+  <section id="skills">
+    <p class="eyebrow reveal">My skills</p>
+    <h2 class="reveal">What I work with</h2>
+    <div class="divider reveal"></div>
+
+    <div class="skills-group reveal">
+      <h3>Programming & Tech</h3>
+      <div class="skill-grid">
+        <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+        <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+        <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+        <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+        <div class="skill-card"><i class="fas fa-code"></i><span>C#</span></div>
+        <div class="skill-card"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+        <div class="skill-card"><i class="fas fa-database"></i><span>SQL</span></div>
+      </div>
+    </div>
+
+    <div class="skills-group reveal">
+      <h3>Computer Applications</h3>
+      <div class="tags-grid">
+        <span class="tag">Excel</span>
+        <span class="tag">Word</span>
+        <span class="tag">PowerPoint</span>
+        <span class="tag">Access</span>
+        <span class="tag">Outlook</span>
+      </div>
+    </div>
+
+    <div class="skills-group reveal">
+      <h3>Soft Skills</h3>
+      <div class="tags-grid">
+        <span class="tag">Communication</span>
+        <span class="tag">Teamwork</span>
+        <span class="tag">Problem Solving</span>
+        <span class="tag">Time Management</span>
+        <span class="tag">Adaptability</span>
+        <span class="tag">Leadership</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top: 16px;">
+      <a href="images/certificate.pdf" target="_blank" class="btn btn-outline" style="font-size:0.82rem;">
+        <i class="fas fa-certificate" style="margin-right:8px;"></i>Full Stack Developer Certificate
+      </a>
+    </div>
+  </section>
+
+  <!-- ══ PROJECTS ══ -->
+  <section id="projects">
+    <p class="eyebrow reveal">My work</p>
+    <h2 class="reveal">Projects I've built</h2>
+    <div class="divider reveal"></div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <img src="images/calculator.jpg" alt="Calculator Project" />
+        <div class="project-body">
+          <p class="project-tag">JavaScript</p>
+          <h3>JavaScript Calculator</h3>
+          <p>A clean, responsive calculator built with vanilla JavaScript — focused on smooth UX and accurate computation.</p>
+          <a href="#" class="project-link">Live Demo <i class="fas fa-arrow-right" style="font-size:0.72rem;"></i></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <img src="images/MedIntel.png" alt="MedIntel Project" />
+        <div class="project-body">
+          <p class="project-tag">Team Project · Front-end Lead</p>
+          <h3>MedIntel</h3>
+          <p>An AI-powered smart triage hospital system built as part of a second-year team project, where I served as front-end developer lead.</p>
+          <a href="https://sabyoni-devs-med-intel.vercel.app/" target="_blank" class="project-link">Live Demo <i class="fas fa-arrow-right" style="font-size:0.72rem;"></i></a>
+        </div>
+      </div>
+
+    <div class="project-card reveal">
+        <img src="https://i.pinimg.com/736x/b2/31/82/b23182905e4b93eaec35fe297a4eb346.jpg" alt="Chitando Dining House" />
+        <div class="project-body">
+          <p class="project-tag">HTML &middot; CSS &middot; JavaScript &middot; Real Client</p>
+          <h3>Chitando Dining House</h3>
+          <p>A fully functional bakery website with a live ordering system, flavour menu, bulk pricing, and integrated payment flow &mdash; built for a real client.</p>
+          <a href="https://chitando-dining-house.vercel.app/" target="_blank" class="project-link">Live Demo <i class="fas fa-arrow-right" style="font-size:0.72rem;"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ══ -->
+  <section id="contact">
+    <p class="eyebrow reveal">Get in touch</p>
+    <h2 class="reveal">Let's work together</h2>
+    <div class="divider reveal"></div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p>I'm open to part-time opportunities, collaborations, and new challenges. Feel free to reach out — I'd love to hear from you.</p>
+        <div class="contact-detail"><i class="fas fa-envelope"></i><span>sitholesithembile7@gmail.com</span></div>
+        <div class="contact-detail"><i class="fas fa-phone"></i><span>072 411 2988</span></div>
+        <div class="contact-detail"><i class="fas fa-map-marker-alt"></i><span>Ermelo, South Africa</span></div>
+        <div class="socials" style="margin-top:24px;">
+          <a href="https://www.linkedin.com/in/sthembile-sithole-920153319" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/SthembilePunstu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/_sthesthembile?igsh=MXNvN3lzcjZyZWkxeg==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <form id="contactForm" class="contact-form reveal">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me what's on your mind…" required></textarea>
+        </div>
+        <button type="submit" id="send-btn">Send Message</button>
+        <p id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    <p>&copy; 2026 Sthembile Sphiwe Sithole — Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
